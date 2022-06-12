@@ -44,6 +44,9 @@ DEFUN_DLD(bvp_system, args, nargout, "Create boundary value problem linear equat
 
     result(0) = A;
     result(1) = f;
+    result(2) = xa;
+    result(3) = xb;
+    result(4) = xc;
 
     return result;
 }
